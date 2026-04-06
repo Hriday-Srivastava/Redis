@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: RedisCacheCrudApp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ems
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: localhost
+    port: 6379
