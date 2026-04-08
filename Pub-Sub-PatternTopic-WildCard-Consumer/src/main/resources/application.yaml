@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Pub-Sub-PatternTopic-WildCard-Consumer
+
+  redis:
+    host: localhost
+    port: 6379
+
